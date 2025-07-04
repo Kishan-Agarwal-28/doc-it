@@ -1,0 +1,50 @@
+{
+  "name": "doc-it",
+  "version": "1.0.0",
+  "description": "Generates automatic documentation for your code. So you don't have to.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kishan-Agarwal-28/doc-it"
+  },
+  "bugs": {
+    "url": "https://github.com/Kishan-Agarwal-28/issues"
+  },
+  "homepage": "https://github.com/Kishan-Agarwal-28/doc-it",
+  
+  "keywords": [
+    "api-documentation", "swagger-generator", "openapi-generator", 
+    "express-documentation", "fastify-docs", "nextjs-api-docs",
+    "automatic-documentation", "zero-config-docs", "api-docs-generator",
+    "swagger-ui", "postman-alternative", "api-testing", "rest-api-docs",
+    "typescript-api-docs", "nodejs-documentation", "developer-tools",
+    "api-explorer", "documentation-generator", "api-spec"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Kishan Agarwal",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.0.10",
+    "rollup": "^4.44.1",
+    "tslib": "^2.8.1"
+  }
+}
